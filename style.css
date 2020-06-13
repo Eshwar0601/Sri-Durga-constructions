@@ -1,0 +1,172 @@
+.row-header {
+  margin: 0px auto;
+  padding: 0px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.jumbotron {
+  height: max-content;
+  padding: 6vh 40px 6vh 40px;
+  margin: 0px auto;
+  background-image: url("img/jumbotron-background.jpg");
+  /* opacity: 0.8; */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background: #9575CD ; */
+  color: whitesmoke;
+}
+
+address {
+  font-size: 80%;
+  margin: 0px;
+  color: black;
+}
+
+.row-content {
+  margin: 0px auto;
+  padding: 50px 0px 50px 0px;
+  border-bottom: 1px ridge;
+  min-height: 400px;
+}
+
+.footer {
+  background-color: #D1C4E9;
+  margin: 0px auto;
+  padding: 20px 0px 20px 0px;
+  margin: 0;
+}
+
+.footer-text {
+  color: white;
+}
+
+body {
+  position: relative;
+  padding: 50px 0 0 0;
+  z-index: 0;
+}
+
+.navbar-dark {
+  /* background-color: #512DA8; */
+  background-color: black;
+}
+
+.margin-top {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.tab-content {
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  padding: 10px;
+}
+
+/* 
+.carousel {
+  background:#512DA8;
+}
+
+.carousel-item {
+height: 300px;
+}
+
+.carousel-item img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-height: 300px;
+} */
+
+.form-row-content {
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
+
+.side-border {
+  border-right: 1px ridge;
+}
+
+#carouselButton {
+  right: 0;
+  position: absolute;
+}
+
+.box {
+  width: max-content;
+  height: fit-content;
+  background-color: rgba(25, 70, 95, 0.6);
+
+
+}
+
+.carousel .carousel-inner {
+  height: 450px
+}
+
+.carousel-inner .carousel-item img {
+  min-height: 200px;
+
+  object-fit: cover;
+}
+
+.row-header {
+  padding: 30px 20px 20px 30px;
+  margin-bottom: 1px ridge;
+
+}
+
+.static-background {
+  background-image: url("img/jumbotron-background.jpg");
+  /* opacity: 0.8; */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.zoom {
+  padding: 0px;
+  transition: transform .2s;
+  /* Animation */
+  margin: 0 auto;
+
+}
+
+.zoom:hover {
+  transform: scale(0.90);
+  /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.passion-font {
+  font-family: 'Passion One', cursive;
+}
+
+.brand-heading {
+  font-size: 50px;
+
+}
+
+.map-container-7 {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.map-container-7 iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+
+
