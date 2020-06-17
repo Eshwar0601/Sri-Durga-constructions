@@ -183,13 +183,18 @@ height: 300px;
   .brand-heading {
     font-size: 35px;
   }
-
+}
 
 @media screen and (max-width: 400px) {
   .brand-heading {
     font-size: 25px;
   }
 
+}
+
+.offer {
+  max-width: 100% ;
+  height: auto; 
 }
 
 
